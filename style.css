@@ -1,0 +1,140 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.veg {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.Bread{
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+    margin:0 auto;
+}
+
+.Non-veg{
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+    margin:0 auto;
+}
+
+.rice{
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: auto;
+    height: 190px;
+    display: block;
+    margin-bottom: 10px;
+    margin:0 auto;
+}
+
+.chinese {
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 200px;
+    height: 171px;
+    display: block;
+    margin-bottom: 10px;
+    margin:0 auto;
+}
+
+.south {
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: auto;
+    height: 150px;
+    display: block;
+    margin-bottom: 10px;
+    margin:0 auto;
+}
+
+
+.menu-container {
+    max-width: 1000px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 5px solid yellow;
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.7);
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    border-bottom: 2px solid yellow;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+.menu-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.menu-section {
+    background-color: black;
+    border: 2px solid yellow;
+    width: 30%;
+    padding: 10px;
+}
+
+.menu-section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid yellow;
+    padding-bottom: 5px;
+}
+
+.menu-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.menu-table th {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+}
+
+.menu-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid white;
+    color: rgb(255, 162, 0);
+}
+
+.menu-table th {
+    background-color: black;
+}
+
+.menu-table td {
+    font-size: 16px;
+}
